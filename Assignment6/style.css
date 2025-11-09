@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+body {
+ background-color:#dfdfdffa;
+   font-family: "Roboto Slab", serif;
+ 
+  height: 100vh;
+}
+
+.grade-calculation{
+ 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 80%;
+
+
+}
+.left-side-01{
+    flex:1
+}
+.right-side-02{
+    flex:1
+}
+h1 {
+  color: #ff841a;
+  margin-bottom: 20px;
+}
+
+.input-box{
+  width: 80%;
+  padding: 18px;
+  margin: 10px 0;
+  border:0;
+  outline:0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color:#4d4941;
+ color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+  background-color:orange;
+}
+#A,#B,#C,#D,#E{
+    font-weight: bolder;
+}
+.gradebtns button.active {
+  background-color: #fb5c0b;
+  color: white;
+  transform: scale(1);
+  
+}
+
